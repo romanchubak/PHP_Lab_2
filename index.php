@@ -25,7 +25,9 @@
                         <input type="text" name="FirstNameOfLector"><br>
                         <label for="SecondNameOfLector">Прізвище лектора</label><br>
                         <input type="text" name="SecondNameOfLector"><br>
-                        <input type="submit" name="Add" placeholder="Додати" >
+                        <input type="submit" name="Add" placeholder="Додати" ><br>
+                        <a href="index_for_lab3.php">lab 3</a><br>
+                        <a href="index_for_lab4.php">lab 4</a><br>
                     </form>
                 </td>
                 <td width="85%">

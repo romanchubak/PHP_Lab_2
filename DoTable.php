@@ -19,11 +19,17 @@
                 if (is_array($rows)&&$rows[0]!=null)
                 {
                     $table .= '<tr>';
+
                     foreach ($rows as $value)
                     {
                         $table .= '<td align="center">' . $value . '</td>';
-
                     }
+                    $table .= '</tr>';
+                }
+                else if(!is_array($rows)&& $rows!=null)
+                {
+                    $table .= '<tr>';
+                    $table .= '<td align="center">' . $rows . '</td>';
                     $table .= '</tr>';
                 }
 
